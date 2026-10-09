@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "Moscow Sans";
+  src: url("./assets/fonts/MoscowSans-Regular.otf") format("opentype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Moscow Sans";
+  src: url("./assets/fonts/MoscowSans-Bold.otf") format("opentype");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+button,
+input,
+textarea,
+select {
+  font-family: "Moscow Sans", Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-weight: 400;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
